@@ -1,3 +1,4 @@
 *.swp
 redirect.zip
+*.zip
 .DS_Store

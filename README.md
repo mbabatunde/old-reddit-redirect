@@ -6,4 +6,4 @@ Credit to Tom Watson for the redirect to old reddit
 
 ## License
 
-Code copyright Tom Watson. Code released under [the MIT license](LICENSE.txt).
+Code copyright Tom Watson & Mark Babatunde. Code released under [the MIT license](LICENSE.txt).
