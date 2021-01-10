@@ -1,4 +1,4 @@
-const oldReddit = "https://old.reddit.com";
+const teddit = "https://teddit.net";
 const excludedPaths = [
   "/gallery",
   "/poll",
@@ -10,13 +10,13 @@ chrome.webRequest.onBeforeRequest.addListener(
   function(details) {
     const url = new URL(details.url);
     
-    if (url.hostname === "old.reddit.com") return;
+    if (url.hostname === "teddit.net") return;
     
     for (const path of excludedPaths) {
       if (url.pathname.indexOf(path) === 0) return;
     }
     
-    return {redirectUrl: oldReddit + url.pathname + url.search + url.hash};
+    return {redirectUrl: teddit + url.pathname + url.search + url.hash};
   },
   {
     urls: [
@@ -25,6 +25,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://np.reddit.com/*",
       "*://new.reddit.com/*",
       "*://amp.reddit.com/*",
+      "*://old.reddit.com/*"
     ],
     types: [
       "main_frame",

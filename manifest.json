@@ -1,20 +1,24 @@
 {
-  "name": "Old Reddit Redirect",
-  "description": "Ensure Reddit always loads the old design",
-  "version": "1.2.0",
   "manifest_version": 2,
-  "background": {"scripts":["background.js"]},
+  "name": "Teddit Extension",
+  "version": "1.0",
+  "description": "Unofficial Teddit extension - redirects reddit links to teddit",
   "icons": {
-    "48": "img/icon48.png",
-    "128": "img/icon128.png"
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+  "background": {
+      "scripts": ["background.js"]
   },
   "permissions": [
-    "webRequest",
-    "webRequestBlocking",
-    "*://reddit.com/*",
-    "*://www.reddit.com/*",
-    "*://np.reddit.com/*",
-    "*://new.reddit.com/*",
-    "*://amp.reddit.com/*"
-  ]
+        "webRequest",
+        "webRequestBlocking",
+        "*://reddit.com/*",
+        "*://www.reddit.com/*",
+        "*://np.reddit.com/*",
+        "*://new.reddit.com/*",
+        "*://amp.reddit.com/*",
+        "*://old.reddit.com/*"
+    ]
 }

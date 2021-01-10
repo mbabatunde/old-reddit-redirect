@@ -1,12 +1,8 @@
-# Old Reddit Redirect
+# Teddit Redirect
 
-[Chrome extension](https://chrome.google.com/webstore/detail/old-reddit-redirect/dneaehbmnbhcippjikoajpoabadpodje)
+Care about privacy? This extension will redirect Reddit Links to [Teddit](https://codeberg.org/teddit/teddit), a privacy focused frontend version of Reddit.
 
-[Firefox extension](https://addons.mozilla.org/firefox/addon/old-reddit-redirect)
-
-Dislike Reddit's redesign? Old Reddit Redirect will ensure that you always load the old (old.reddit.com) design instead.
-
-Will force all reddit.com usage to old.reddit.com. Will work when navigating to the site, opening links, using old bookmarks. Works regardless of whether you are logged in or not, and in incognito mode.
+Credit to Tom Watson for the redirect to old reddit
 
 ## License
 
